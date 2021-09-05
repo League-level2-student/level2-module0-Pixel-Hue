@@ -127,11 +127,13 @@ else if (buttonClicked == button2) {
 	@Override
 	public void keyTyped(KeyEvent e) {
 	
+		char keyTyped = e.getKeyChar();
+		System.out.println(keyTyped);
 		// 30. Save the key typed by the user to a variable
 		// HINT: Look at the methods that KeyEvent e has
 
 		// 31. Use JOptionPane pop-up to tell the user which key they typed
-JOptionPane.showMessageDialog(null, "You clicked ");
+JOptionPane.showMessageDialog(null, "You typed " + keyTyped);
 	}
 
 	@Override

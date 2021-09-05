@@ -25,7 +25,7 @@ public class _00_ArrayCheatSheet {
 		for (int i = 0; i < 50; i++) {
 			int num = ran.nextInt(100);
 			array1[i] = num;
-
+			
 		}
 		int nu = array1[0];
 		for (int i = 0; i < 50; i++) {
